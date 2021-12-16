@@ -1,0 +1,7 @@
+{
+  "devDependencies": {
+    "cypress": "^9.1.1",
+    "date-fns": "^2.27.0",
+    "start-server-and-test": "^1.14.0"
+  }
+}
