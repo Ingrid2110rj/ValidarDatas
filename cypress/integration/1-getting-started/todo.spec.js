@@ -5,7 +5,6 @@ describe("Date list should", () => {
   it("have dates sorted chronologically", () => {
     cy.viewport(1366,766); 
     cy.visit("https://www.tesourodireto.com.br/")
-    cy.get('.td-menu-trigger__icon').click()
     cy.get(':nth-child(6) > .td-nav__list-item__link').click()
     const parseDate = date => parse(date, "dd/MM/yyyy", new Date())
     let prevDate = parseDate("28/10/2021")
